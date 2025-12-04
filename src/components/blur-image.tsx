@@ -5,7 +5,7 @@ import Image, { ImageProps } from "next/image";
 import { Blurhash } from "react-blurhash";
 
 interface BlurImageProps extends Omit<ImageProps, "onLoad"> {
-  blurhash: string;
+  blurhash?: string | null;
 }
 
 /**
@@ -17,7 +17,7 @@ interface BlurImageProps extends Omit<ImageProps, "onLoad"> {
  * @param {number} height - The height of the image.
  * @param {string} fill - The fill of the image.
  * @param {string} className - Optional className for the component.
- * @param {string} blurhash - The blurhash of the image.
+ * @param {string | null | undefined} blurhash - The blurhash of the image (optional).
  * @returns {JSX.Element} - The BlurImage component.
  */
 const BlurImage = memo(function BlurImage({
@@ -36,7 +36,7 @@ const BlurImage = memo(function BlurImage({
 
   return (
     <div className={containerStyle}>
-      {!imageLoaded && (
+      {!imageLoaded && blurhash && (
         <div className={`absolute inset-0 ${className}`}>
           <Blurhash
             hash={blurhash}
