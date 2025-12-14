@@ -13,10 +13,15 @@ export const config = {
     location: "-",
   },
   projects: [
-    
-    
-    
-    
+    {
+      id: 1,
+      title: "AI-Powered Code Review Assistant",
+      description: "An intelligent code review platform that uses machine learning to analyze pull requests, detect bugs, suggest optimizations, and enforce coding standards.",
+      image: "/projects/project-1.webp",
+      technologies: ["Python", "TensorFlow", "React", "FastAPI", "PostgreSQL", "Docker"],
+      github: "#",
+      demo: "#",
+    },
   ],
   skills: [
     { name: "React.js", icon: "react" },
