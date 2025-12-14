@@ -17,9 +17,9 @@ const readexPro = Readex_Pro({
 export const metadata: Metadata = {
   title: {
     template: "%s - Developer Portfolio",
-    default: "Huzaif - Full Stack Developer",
+    default: "Arunodoy - Ai automation Developer and contributor",
   },
-  description: "Full-stack developer creating digital experiences that respect humans and scale with clarity.",
+  description: "Automation and website developer creating digital experiences that respect humans and scale with clarity.",
 };
 
 export default function RootLayout({

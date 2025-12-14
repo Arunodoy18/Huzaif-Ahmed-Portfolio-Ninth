@@ -59,8 +59,8 @@ const AboutPage = () => {
         <div className="bg-muted rounded-xl p-8">
           <h2 className="text-2xl font-semibold mb-4">About Me</h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            I&apos;m a passionate full-stack developer who loves building
-            digital experiences that make a difference. My approach combines
+            I&apos;m a passionate AI automation developer who loves building
+            digital experiences and your AI support system that make a difference. My approach combines
             clean code, thoughtful design, and user-centered thinking.
           </p>
           <p className="text-muted-foreground leading-relaxed">

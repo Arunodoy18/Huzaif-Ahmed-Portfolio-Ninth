@@ -14,8 +14,8 @@ const Footer = () => {
 
         {/* NAME  */}
         <div className="flex flex-col items-center lg:items-start gap-[2px]">
-          <h1 className="text-2xl">Huzaif Ahmed</h1>
-          <p className="text-sm opacity-60">Full Stack Developer</p>
+          <h1 className="text-2xl">Arunodoy Banerjee</h1>
+          <p className="text-sm opacity-60">Open source contributor & AI automation builder</p>
         </div>
       </div>
       <div className="grid lg:w-full grid-cols-1 lg:grid-cols-3 gap-7 lg:gap-14">
@@ -50,7 +50,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="underline underline-offset-2"
           >
-            Huzaif Ahmed
+            Arunodoy Banerjee
           </a>
         </p>
       </div>
